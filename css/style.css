@@ -1,0 +1,44 @@
+.navbar {
+  background-color: #fff !important;
+}
+
+.navbar .navbar-brand {
+  font-weight: 900;
+  font-size: 28px;
+}
+
+.navbar-nav .nav-item .nav-link {
+  font-size: 18px;
+  font-weight: 600;
+  position: relative;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: black;
+}
+
+.navbar-nav .nav-item .nav-link:hover::before {
+  width: 82%;
+}
+
+.navbar-nav .nav-item .nav-link::before {
+  content: "";
+  height: 5%;
+  width: 0%;
+  left: 8px;
+  bottom: 10px;
+  background-color: orangered;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  position: absolute;
+}
+
+.video {
+  color: red;
+  font-size: 28px;
+}
+
+.home {
+  background-color: #eee;
+}
+/*# sourceMappingURL=style.css.map */
